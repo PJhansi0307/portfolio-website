@@ -1,0 +1,14 @@
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+    .styles
+    {
+       font-family: 'Lobster','cursive';
+       font-weight:bold;
+        }
+    .dot{
+        font-style:italic;
+    }
+    body
+    {
+        border-style:solid;
+        background-color:gray;
+    }
