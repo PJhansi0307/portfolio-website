@@ -4,11 +4,38 @@
        font-family: 'Lobster','cursive';
        font-weight:bold;
         }
-    .dot{
+    .a{
         font-style:italic;
     }
-    body
-    {
+    *{
+        border:5px solid orange;
+    }
+    .dot{
+        border:10px double black;
+
+    }
+    h1{
+        padding-top:50px;
+        padding-bottom:50px;
+        background-color:yellow;
+        
+    }
+    p{
+        padding-left:50px;
+        padding-right:50px;
+    }
+    li{
+        background-color:skyblue;
+        padding-right;10px;
+        padding-left:20px;
+        margin:10px;
+    }
+    #janu{
+        color:red;
+    }
+    body{
         border-style:solid;
         background-color:gray;
+        border-width:9px;
+        border-color:red;
     }
