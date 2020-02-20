@@ -13,12 +13,14 @@
 }
 .b{
     color:skyblue;
+    margin-left:10px;
 }
 .c{
     color:black;
+    margin-left:10px;
 }
-.p{
-    padding:30px;
+p{
+    padding:15px;
 }
 .j{
     background-color:LightGray;

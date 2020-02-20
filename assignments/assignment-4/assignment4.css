@@ -1,0 +1,31 @@
+.reading{
+    display:inline-block;
+    width:10%;
+    font-size:20px;
+    vertical-align:middle;
+    margin-right:20px;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Courgette|Simonetta&display=swap');
+li{
+    /*width:10%;*/
+    font-size:20px;
+    vertical-align:middle;
+    
+}
+ol{
+    font-weight:bold;
+    list-style-type:none;
+}
+img{
+ vertical-align:middle;  
+ padding-right: 20px;
+ height: 70px;
+ width: 70px;
+}
+.font{
+    font-family: 'Courgette', cursive;
+}
+h1{
+        padding-left:40px;
+}
