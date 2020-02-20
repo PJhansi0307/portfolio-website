@@ -1,182 +1,165 @@
       .a{
         background-color:slateblue;
-        width:96%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:100%;
+        height:50px;
+        margin-bottom:10px;
+        display:inline-block;
       }
       .b{
         display:inline-block;
         background-color:blue;
-        width:46.3%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:49%;
+        height:50px;
+        margin-bottom:10px;
       }
       .c{
         display:inline-block;
         background-color:blue;
-        width:46.3%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:49%;
+        height:50px;
+        margin-bottom:10px;
       }
       .d{
         display:inline-block;
         background-color:slateblue;
-        width:29.8%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:32%;
+        height:50px;
+        margin-bottom:10px;
       }
       .e{
         display:inline-block;
         background-color:slateblue;
-        width:29.8%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:32%;
+        height:50px;
+        margin-bottom:10px;
       }
       .f{
         display:inline-block;
         background-color:slateblue;
-        width:29.8%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:32%;
+        height:50px;
+        margin-bottom:10px;      
       }
       .g{
         display:inline-block;
         background-color:blue;
-        width:21.4%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:23.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .h{
         display:inline-block;
         background-color:blue;
-        width:21.3%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:23.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .i{
         display:inline-block;
         background-color:blue;
-        width:21.4%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:23.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .j{
         display:inline-block;
         background-color:blue;
-        width:21.4%;
-        height:40px;
-        padding:5px;
-        margin:10px;
+        width:23.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .aa{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
-        
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .bb{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .cc{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
         }
         .dd{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
          }
         .ee{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
-      }
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
+        }
       .ff{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
         
       }
             .gg{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
-        
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .hh{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
         
       }
       .ii{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .jj{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
-        
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
       }
       .kk{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
         
       }
       .ll{
         display:inline-block;
         background-color:slateblue;
-        width:4.92%;
-        height:70px;
-        padding:5px;
-        margin:10px;
+        width:6.5%;
+        height:50px;
+        margin-bottom:10px;
         
+      }
+      .r
+      {
+        margin-right:2%;
+      }
+      body{
+        margin-top:25px;
       }

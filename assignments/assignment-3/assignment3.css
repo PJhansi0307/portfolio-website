@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
+.aa{
+    display:inline-block;
+    background-color:white;
+    width:30%;
+    border-radius:5%;
+    border:10px white;
+    margin-left:2%;
+}
+.a{
+    color:black;
+}
+.b{
+    color:skyblue;
+}
+.c{
+    color:black;
+}
+.p{
+    padding:30px;
+}
+.j{
+    background-color:LightGray;
+    padding:20px;
+}
