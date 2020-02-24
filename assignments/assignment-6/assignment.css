@@ -1,0 +1,84 @@
+.hea{
+    text-align:center;
+   padding-bottom: 10px;
+    font-weight:bold;
+    font-size:40px;
+}
+.text{
+    font-size:20px;
+    text-align:center;
+    
+}
+.but {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.but1{
+  background-color: white; 
+  border-radius:30%;
+  color:black;
+  border:solid;
+  margin-left-color:blue;
+
+}
+
+.but1:hover {
+  background-color:blue;
+  color: white;
+}
+.but2{
+  background-color: white; 
+  border-radius:30%;
+  color:black;
+  border:solid;
+  margin-left:auto;
+}
+
+.but2:hover {
+  background-color:blue;
+  color: white;
+}
+.but3{
+  background-color: white; 
+  border-radius:30%;
+  color:black;
+  border:solid;
+  margin-right:auto;
+
+}
+
+.but3:hover {
+  background-color:blue;
+  color: white;
+}
+.but4{
+  background-color: white; 
+  border-radius:30%;
+  color:black;
+  border:solid;
+  padding-right:20px;
+  margin-right:auto;
+
+}
+
+.but4:hover {
+  background-color:blue;
+  color: white;
+}
+body{
+    padding:40px;
+    background-color:LightBlue;
+}
+p{
+  margin-right:auto;
+}
