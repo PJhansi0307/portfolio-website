@@ -1,0 +1,22 @@
+.image{
+    background-image:url(assets/rabbit.jpeg);
+    width:527px;
+    height:350px;
+    background-size: cover;
+    padding:35px;
+    /*margin-top:15px;*/
+}
+.frame{
+    border:20px solid orange;
+    height:250px;
+    width:250px;
+    /*margin: auto;*/
+    margin-left:135px;
+    margin-top:15px;
+
+}
+/*body{*/
+/*    background-image:url(assets/rabbit.jpeg);*/
+/*    width:527px;*/
+/*    height:350px;*/
+/*}*/

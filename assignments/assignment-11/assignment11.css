@@ -1,0 +1,19 @@
+.col-4{
+    text-align:center;
+    padding:60px;
+    padding-top:65px;
+    border-radius:8px;  
+    height:23vh;
+    background-color:LightGray;
+}
+.col-8{
+    height:20vh;
+}
+.provisit{
+    width:110px;
+    margin-top:-3px;
+    padding:5px;
+    color:white;
+    background-color:dodgerblue;
+}
+    
