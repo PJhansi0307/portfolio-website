@@ -1,1 +1,48 @@
-
+/*.first{*/
+/*    background-color:#09885a;*/
+/*    height:30px;*/
+/*}*/
+/*.second{*/
+/*    background-color:#5a57bb;*/
+/*    height:30px*/
+/*}*/
+/*.third{*/
+/*    background-color: #ff9900;*/
+/*    height:30px;*/
+/*}*/
+/*.four{*/
+/*    background-color: #09885a;*/
+/*    height:30px;*/
+/*}*/
+.first{
+    background-color:#09885a;
+    height:10vh;
+}
+.second{
+    background-color:#5a57bb;
+    height:10vh;
+}
+.third{
+    background-color:#ff9900;
+    height:10vh;
+}
+.fourth1{
+    background-color:#5a57bb;
+    height:10vh;
+}
+.fourth{
+    background-color:#09885a;
+    height:10vh;
+}
+.fourth2{
+    background-color:#09885a;
+    height:10vh;
+}
+.fifth{
+    background-color:#4a86e8;
+    height:15vh;
+}
+.fifth1{
+    background-color:#5a57bb;
+    height:15vh;
+}
