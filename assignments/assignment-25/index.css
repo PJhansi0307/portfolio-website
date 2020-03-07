@@ -1,0 +1,60 @@
+.imgheight{
+    height:17px;
+    width:17px;
+}
+.details{
+    font-weight:normal;
+    color:blue;
+}
+.back{
+    background-image: url(assets/background.jpg);
+    height:100vh;
+    width:100%;
+     background-size:cover;
+}
+.bg{
+    background-color:#00000050;
+    height:100%;
+}
+.right{
+    text-align:right;
+}
+.coloring{
+    color:white;
+}
+.paddingpage{
+    padding-top:15px;
+}
+.paddingbottom{
+    padding-bottom:15px;
+}
+.padding1{
+    padding:10px;
+}
+.space{
+    margin-left:16px;
+}
+.profileimg{
+    text-align:center;
+    margin-top:200px;
+}
+.shape{
+  border-radius:15%;
+    background-size:cover;
+}
+.center{
+    text-align:center;
+}
+.spacing{
+    text-align:center;
+}
+.right{
+   text-align:right;
+}
+.icons{
+    height:50px;
+    width:30px;
+}
+.socialnetwork{
+    margin-left:20px;
+}
