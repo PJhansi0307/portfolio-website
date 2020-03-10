@@ -1,45 +1,51 @@
+
 .imgheight{
-    height:17px;
-    width:17px;
+    height:20px;
+}
+.footerBorder{
+    width:100%;
+    border-top:1px solid #dcdcdc;
+    padding:14px 0px 10px 0px;
 }
 .details{
     font-weight:normal;
     color:blue;
 }
-.back{
+.bg1{
     background-image: url(assets/background.jpg);
-    height:100vh;
+    height:600px;
+    background-image:#00000050;
     width:100%;
-     background-size:cover;
-}
-.bg{
-    background-color:#00000050;
-    height:100%;
+    background-size: cover;
 }
 .right{
     text-align:right;
 }
+.bgColor{
+    background-color:Lightgray;
+    height:15px;
+}
 .coloring{
     color:white;
 }
-.paddingpage{
-    padding-top:15px;
+.text{
+    color:gray;
 }
-.paddingbottom{
-    padding-bottom:15px;
-}
-.padding1{
-    padding:10px;
+.paddingPage{    
+padding-top:15px;
 }
 .space{
-    margin-left:16px;
+    margin-left:20px;
 }
-.profileimg{
+.profileImg{
     text-align:center;
     margin-top:200px;
 }
+.text1{
+    padding-top:9px;
+}
 .shape{
-  border-radius:15%;
+  border-radius:17%;
     background-size:cover;
 }
 .center{
@@ -52,9 +58,11 @@
    text-align:right;
 }
 .icons{
-    height:50px;
-    width:30px;
+    height:20px;
 }
-.socialnetwork{
-    margin-left:20px;
+.imgspace{
+    margin-bottom:10px;
+}
+.bgColor1{
+    background-color: white;
 }
