@@ -1,0 +1,10 @@
+@media (max-width:767px){
+    .heading{
+        text-align:left;
+    }
+}
+@media (min-width:768px){
+    .heading{
+        text-align:center;
+    }
+}

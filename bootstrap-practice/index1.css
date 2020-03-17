@@ -1,0 +1,14 @@
+@media(min-width: 992px){
+        body{
+            color:red;
+            font-size:30px;
+        }
+    
+}
+@media(max-width: 768px){
+        body{
+            color:blue;
+            font-size:30px;
+        }
+    
+}

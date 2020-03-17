@@ -14,12 +14,424 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-6 github">
-       <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+    <div class="container-fluid">
+      <div class="row properties">
+        <div class="d-none d-xl-block col-xl-3"></div>
+        <div class="d-block col-6 col-sm-5 col-md-5 d-lg-none">
+         <img src="assets/github-logo.svg" height="50vh" class="github_logo">
+        </div>
+        
+        <div class="d-none d-lg-block col-lg-12 col-xl-8 dropdown_position">
+         <ul class="LargeScreenItems">
+           <li class="LargeScreenItem"><img src="assets/github-logo.svg" height="50vh" class="github_logo"></li>
+           <li class="LargeScreenItem"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Why GitHub?</a></li>
+           <li class="LargeScreenItem">Enterprise</li>
+           <li class="LargeScreenItem"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Explore</a></li>
+           <li class="LargeScreenItem">Marketplace</li>
+           <li class="LargeScreenItem"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pricing</a></li>
+           <li class="LargeScreenItem"><button type="button" class="btn btn-primary button">
+                    Search GitHub &nbsp;&nbsp;<span class="badge badge-light color">/</span>
+               </button>
+           </li>
+           <li class="LargeScreenItem">SignIn</li>
+           <li class="LargeScreenItemLast"><button type="button" class="signup_button">SignUp</button></li>
+         </ul>
+        </div>
+        <div class="col-3 col-sm-5 col-md-5 d-block d-lg-none position">
+          <button type="button" class="signup_button">SignUp</button>
+        </div>
+
+        <div class="d-block col-3 col-sm-2 col-md-2 d-lg-none">
+          <nav class="navbar navbar-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+           </nav>
         </div>
       </div>
+  <div class="row explore">
+    <div class="col-12 d-lg-none d-block exploreItems">Explore</div>
+  
+    <div class="col-12 d-block d-lg-none  exploreItems">
+      <ul class="nav">
+        <li class="nav-item col-3">
+         <a class="nav-link topicProperties">Topics</a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Trending</a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Collections</a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Events</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-none d-xl-block col-xl-3"></div>
+    <div class="d-none d-lg-block col-lg-7 col-xl-4 nav_bar">
+      <ul class="nav">
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Explore</a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link topicProperties">Topics</a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Trending</a>
+        </li>
+        <li class="nav-item col-3">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Collections</a>
+        </li>
+        <li class="nav-item col-2">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Events</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+      <div class="row background">
+      <div class="d-none d-xl-block col-xl-3"></div>
+        <div class="col-12 col-xl-8 headingSpaces"></div>
+        <div class="col-12">
+          <h1>Topics</h1>
+          <div>Browse popular topics on GitHub</div>
+        </div>
+        <div class="col-12 headingSpaces"></div>
+      </div>
+
+      <div class="row">
+        <div class="d-none d-xl-block col-xl-3"></div>
+        <div class="col-12 col-lg-4 col-xl-2 space">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="assets/opengl.png" alt="opengl_logo" class="image">
+              <h3>OpenGL</h3>
+              <p>OpenGL is a software interface thatt allows a programmer to 
+              communicate with graphics hardware.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-2 space">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="assets/flask.png" alt="flask_logo" class="image">
+              <h3>Flask</h3>
+              <p>Flask is a web framework for Python based on the Werkzeug toolkit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-2 space">
+          <div class="card h-100">
+            <div class="card-body">
+              <img src="assets/gradle.png" alt="gradle_logo" class="image">
+              <h3>Gradle</h3>
+              <p>Gradle is an open-source build tool that helps teams build,automate and
+              deliver better software,faster.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+      <div class="d-none d-xl-block col-xl-3"></div>
+      <div class="col-12 col-lg-9 col-xl-5">
+      <h2 class="features_heading">All featured topics</h2>
+      
+      <div class="row ">
+        <div class="col-2 col-md-1 col-lg-1">
+          <div class="hashtag">#</div>
+        </div>
+        <div class="col-10 col-md-9 col-lg-9 ">
+          <h4>3D</h4>
+          <p>3D modelling is the process of virtually developing the surface and structure 
+          of a 3D object.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2 col-lg-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <div class="hashtag">#</div>
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Ajax</h4>
+          <p>Ajax is a technique for creating interactive web applcations.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <div class="hashtag">#</div>
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Algorithm</h4>
+          <p>Algorithm are self-contained sequences that carry out a variety of tasks.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/amphp.png" alt="amphp_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Amp</h4>
+          <p>Amp is a non-blocking concurrency framework for PHP.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/android.png" alt="android_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Android</h4>
+          <p>Android is an operating system built by Google designed for mobile devices.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/angular.png" alt="angular_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Angular</h4>
+          <p>Angular is an open source web applcation platform.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/ansible.png" alt="ansible_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Ansible</h4>
+          <p>Ansible is a simple and powerful automation engine.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <div class="hashtag">#</div>
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>API</h4>
+          <p>An API(Application Programming Interface) is a collection of 
+          protocols and subroutines for building software.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assetsstar.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/arduino.png" alt="arduino_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Arduino</h4>
+          <p>Arduino is an open source hardware and software company and maker community.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/aspnet.png" alt="aspnet_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>ASP.NET</h4>
+          <p>ASP.NET is a web framework for building modern web apps and services.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/atom.png" alt="atom_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Atom</h4>
+          <p>Atom is a open source text editor built with web technologies.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/awesome.png" alt="awesome_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Awesome Lists</h4>
+          <p>An awesome list is a list of awesome things curated by the community.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/aws.png" alt="aws_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Amazon Web Services</h4>
+          <p>Amazon Web Services provides on-demand cloud computing platforms 
+          on a subscription basis.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <img src="assets/azure.png" alt="azure_logo" class="logos">
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Azure</h4>
+          <p>Azure is a cloud computing service created by Microsoft.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-2 col-md-1">
+          <div class="hashtag">#</div>
+        </div>
+        <div class="col-10 col-md-9">
+          <h4>Mobile</h4>
+          <p>Mobile apps,mobile OS,mobile databases, & mobile testing frameworks.</p>
+          <div class="d-block col-12 d-md-none star">
+            <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-2">
+          <button type="button" class="star_button"><img src="assets/star.svg" alt="star_logo"> Star</button>
+        </div>
+      </div>
+      <hr>
+    
+      <div class="row load_position">
+        <div class="col-12">
+        <div class="card">
+          <p class="load">Load more...</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-lg-3 col-xl-2">
+      <div class="row d-block d-md-none">
+        <h5 class="popular_topics_heading">Popular topics</h5>
+        <div class="col-12 popular_topics">
+          <span>react</span>
+          <span>javascript</span>
+          <span>css</span>
+          <span>python</span>
+          <span>html</span>
+          <span>ecommerce</span>
+        </div>
+        <div class="col-12 popular_topics">
+          <span>python3</span>
+          <span>ecommerce-platform</span>
+          <span>nci-itcr</span>
+          <span>soildus-extensions</span>
+        </div>
+      </div>
+      
+      <div class="row d-none d-md-block">
+        <h5 class="popular_topics_heading">Popular topics</h5>
+        <div class="col-md-12 popular_topics">
+          <span>react</span>
+          <span>javascript</span>
+          <span>css</span>
+        </div>
+        <div class="col-md-12 popular_topics">
+          <span>python</span>
+          <span>html</span>
+          <span>ecommerce</span>
+        </div>
+        <div class="col-md-12 popular_topics">
+          <span>python3</span>
+          <span>ecommerce-platform</span>
+        </div>
+        <div class="col-md-12 popular_topics">
+          <span>nci-itcr</span>
+          <span>soildus-extensions</span>
+        </div>
+      </div>
+      </div>
+    </div>
     </div>
   </body>
 </html>

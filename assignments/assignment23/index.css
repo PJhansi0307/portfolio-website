@@ -37,6 +37,7 @@ h1{
 /*}*/
 .imgheight1{
     height:50vh;
+    width:100%:;
 }
 .imgheight2{
     width:100%;
@@ -44,7 +45,7 @@ h1{
 }
 .apps{
     height:100px;
-    width:40%;
+    width:60px;
 }
 .picheight{
     height:50px;
@@ -68,7 +69,8 @@ ul{
   background-color:#f0f5f5;  
 }
 .imgHeight{
-    height:10px;
+    height:100px;
+    width:200px;
 }
 .imgSize{
     height:300px;
@@ -84,4 +86,7 @@ ul{
 .gmailLogo{
     height: 20px;
     
+}
+.leftImg{
+    text-align:left;
 }
