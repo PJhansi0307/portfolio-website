@@ -43,3 +43,13 @@ li{
 .background{
     background-color:LightGray;
 }
+.bg{
+    background-color: white;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+.txt1{
+    font-weight: bold;
+    font-size:20px;
+}
