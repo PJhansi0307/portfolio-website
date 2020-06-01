@@ -1,0 +1,45 @@
+.logo{
+    height:50px;
+    width:50px;
+    background-color:#ff7f50;
+    border-radius:60%;
+    text-align: center;
+    padding:10px;
+}
+.container{
+    padding:30px;
+}
+.txt{
+    font-weight:bold;
+    font-size:26px;
+    text-align: center;
+}
+.inform{
+    list-style-type: none;
+}
+.center{
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-size:20px;
+    
+}
+.space{
+    margin-bottom: 60px;
+}
+.space1{
+    margin-bottom:29px;
+    font-weight: bold;
+}
+.text{
+    font-size: 25px;
+}
+.mrgin-left{
+    margin-left:20px;
+}
+.background{
+    background-color:LightGray;
+}

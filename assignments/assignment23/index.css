@@ -1,3 +1,4 @@
+
 .imgheight{
     height:20px;
 }
@@ -9,7 +10,7 @@
     color:white;
     text-align:center;
     background-color:dodgerblue;
-       font-weight:normal;
+    font-weight:normal;
 }
 .gmail{
     font-size:20px;
@@ -37,15 +38,15 @@ h1{
 /*}*/
 .imgheight1{
     height:50vh;
-    width:100%:;
+    width:100%;
 }
 .imgheight2{
     width:100%;
     height:50vh;
 }
 .apps{
-    height:100px;
-    width:60px;
+    height:70px;
+    width:80px;
 }
 .picheight{
     height:50px;
@@ -69,8 +70,8 @@ ul{
   background-color:#f0f5f5;  
 }
 .imgHeight{
-    height:100px;
-    width:200px;
+    height:70px;
+    width:190px;
 }
 .imgSize{
     height:300px;
@@ -84,7 +85,8 @@ ul{
     height:40vh;
 }
 .gmailLogo{
-    height: 20px;
+    height: 50px;
+    width:50px;
     
 }
 .leftImg{
