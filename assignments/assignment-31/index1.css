@@ -1,0 +1,127 @@
+.logo
+{
+    height:50px;
+    width:50px;
+    text-align:center;
+    background-color:#ff9900;
+    border-radius: 50%;
+    padding:5px;
+}
+.top-logo
+{
+    text-align:center;
+    margin-top:15px;
+}
+.nav_padding
+{
+    padding-right:3px;
+}
+.alignment_center
+{
+    text-align:center;
+}
+.phone_number
+{
+    background-color:aliceblue;
+}
+.get-started
+{
+     padding:5px;
+     font-size:17px;
+     background-color:orange;
+     color:white;
+     font-weight:bold;
+}
+.full-background
+{
+    background-color:aliceblue;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.text-grey
+{
+    color:grey;
+}
+.top-border
+{
+    color:orange;
+    height:7px;
+}
+@media(max-width:991px)
+{
+    .two_options{
+        text-align:center;
+    }
+}
+.two-option-images
+{
+    height:30px;
+    width:30px;
+}
+.images
+{
+    height:45px;
+    width:45px;
+    text-align:center;
+    margin-bottom:5px;
+    background-color:white;
+    border-radius:50%;
+    padding:5px;
+}
+@media(max-width:767px)
+{
+    .text_align{
+        text-align:center;
+    }
+}
+.integer-images
+{
+    height:190px;
+    width:190px;
+    border-radius:15px;
+}
+.card
+{
+    background-color:aliceblue;
+    padding:40px;
+    border:none;
+    margin-bottom:15px;
+}
+.double-quote
+{
+    height:20px;
+    width:20px;
+}
+.alignment_right_bold
+{
+    text-align:right;
+    font-weight:bold;
+}
+.alignment_right
+{
+    text-align:right;
+}
+.social-media
+{
+    height:20px;
+    width:20px;
+    display:inline-block;
+    margin:5px;
+}
+.container-margins-bottom
+{
+    margin-bottom:50px;
+}
+.img1{
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+.inform{
+    list-style-type:none; 
+}
+li{
+    display: inline;
+    margin-left:20px;
+    font-size:20px;
+}
