@@ -46,7 +46,7 @@
 .top-border
 {
     color:orange;
-    height:7px;
+    height:10px;
 }
 @media(max-width:991px)
 {
@@ -111,12 +111,13 @@
 }
 .container-margins-bottom
 {
-    margin-bottom:50px;
+    margin-bottom:60px;
 }
 .img1{
     height:100%;
     width:100%;
     background-size: cover;
+    border-radius:10px;
 }
 .inform{
     list-style-type:none; 
@@ -125,7 +126,4 @@ li{
     display: inline;
     margin-left:20px;
     font-size:20px;
-}
-p{
-    font-family: 'Dosis', sans-serif;
 }
