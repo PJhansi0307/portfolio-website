@@ -23,6 +23,7 @@
 .phone_number
 {
     background-color:aliceblue;
+    margin-left: 10px;
 }
 .get-started
 {
@@ -124,4 +125,7 @@ li{
     display: inline;
     margin-left:20px;
     font-size:20px;
+}
+p{
+    font-family: 'Dosis', sans-serif;
 }
