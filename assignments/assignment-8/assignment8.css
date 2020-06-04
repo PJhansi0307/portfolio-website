@@ -1,19 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-body{
-    background-image: url(../../bg.jpg);
+.bg{
     /*background-size:cover;*/
     background-repeat:no-repeat;
-    background-size:100% 95%;
+    background-size:100% 100%;
     background-attachment: fixed;
     font-family:'Roboto';
+}
+img{
+    height:60%;
+    width:100%;
 }
 body{
     background-color:#f0f2f2;
 }
 .bg1{
 /*-webkit-clip-path: circle(50% at 50% 50%);*/
- background-image:url(../../janu1.jpg);
+ background-image:url(../../j1.jpeg);
  background-size: cover;
  border-radius:80%;
  /*margin:auto;*/
@@ -25,18 +28,18 @@ body{
  margin-bottom:100px;
  /*padding-bottom:50px;*/
  width:200px;
- margin-top:250px;
+ margin-top:10px;
  /*background-position:center center;*/
  background-repeat: no-repeat;
 }
 .text{
-    font-size:28px;
-    color:white;
+    font-size:30px;
+    color:red;
     font-style: inherit;
      margin-left:100px;
 }
 .text1{
-    color:white;
+    color:skyblue;
     font-size:50px;
      margin-left:100px;
     margin-top:-10px;
@@ -50,11 +53,11 @@ li{
     display:inline-block;
 }
 .inform{
-   
+    padding-bottom:8px;
     padding-top:22px;
     /*padding-left:30px;*/
     border-radius:49px;
-    margin-top:180px;
+    margin-top:182px;
     margin-left:15px;
     width:975px;
     /*padding:10px;*/
@@ -62,11 +65,10 @@ li{
     
 }
 .home{
-    padding-left:50px;
+    padding-left:30px;
 }
 .home1{
-    padding-left:150px;
-    
+    padding-left:172px;
 }
 
 .typewriter{
@@ -81,7 +83,7 @@ li{
     white-space: nowrap;
     font-size:50px;
     font-weight: 700;
-    border-right:4px solid white;
+    border-right:4px solid pink;
     box-sizing: border-box;
 }
 @keyframes typing{
